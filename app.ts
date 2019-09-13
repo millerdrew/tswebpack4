@@ -2,7 +2,7 @@ export class Hero {
   id: number;
   name: string;
 
-  constructor(name, id = 1) {
+  constructor(name: string, id = 1) {
       this.name = name;
       this.id = id;
   }
